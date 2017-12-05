@@ -116,22 +116,22 @@ const TCHAR FontName[]=TEXT("微软雅黑");//黑体
 
 //颜色
 const unsigned long crWhite=RGB(255,255,255);//白色
-const unsigned long crBackground=RGB(250,248,239);//背景颜色
+const unsigned long crBackground=RGB(237,246,245);//背景颜色
 const unsigned long crGray=RGB(187,173,160);//分数块
 const unsigned long crText=RGB(115,106,98);//深色标题2048
 const unsigned long crScoreTitle=RGB(245,235,226);//最高分
 const unsigned long crLessEqual8=RGB(119,110,101);//数字低于8为灰色，高于8为白色
-const unsigned long cr2=RGB(238,228,218);
-const unsigned long cr4=RGB(237,224,200);
-const unsigned long cr8=RGB(242,177,121);
-const unsigned long cr16=RGB(245,149,99);
-const unsigned long cr32=RGB(246,124,95);
-const unsigned long cr64=RGB(246,94,59);
-#define cr128 RGB(237,204,97)
+const unsigned long cr2=RGB(204,232,245);
+const unsigned long cr4=RGB(169,222,230);
+const unsigned long cr8=RGB(173,222,239);
+const unsigned long cr16=RGB(193,231,244);
+const unsigned long cr32=RGB(182,220,253);
+const unsigned long cr64=RGB(191,220,236);
+#define cr128 RGB(123,170,214)
 const unsigned long cr256=cr128;
 const unsigned long cr512=cr128;
 const unsigned long cr1024=cr128;
-const unsigned long cr2048=RGB(237,194,46);
+const unsigned long cr2048=RGB(237,246,245);
 
 //declare
 unsigned long Num2Color(unsigned int num);
